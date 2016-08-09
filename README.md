@@ -1,26 +1,27 @@
-# Ember-query-builder
+# ember-query-builder
 
-This README outlines the details of collaborating on this Ember addon.
+[![Build Status](https://travis-ci.org/offirgolan/ember-query-builder.svg)](https://travis-ci.org/offirgolan/ember-query-builder)
+[![npm version](https://badge.fury.io/js/ember-query-builder.svg)](http://badge.fury.io/js/ember-query-builder)
+[![Code Climate](https://codeclimate.com/github/offirgolan/ember-query-builder/badges/gpa.svg)](https://codeclimate.com/github/offirgolan/ember-query-builder)
+[![Test Coverage](https://codeclimate.com/github/offirgolan/ember-query-builder/badges/coverage.svg)](https://codeclimate.com/github/offirgolan/ember-query-builder/coverage)
+[![Dependency Status](https://david-dm.org/offirgolan/ember-query-builder.svg)](https://david-dm.org/offirgolan/ember-query-builder)
+
+## Features
+
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-query-builder
+```
 
-## Running
+## Helpful Links
 
-* `ember serve`
-* Visit your app at http://localhost:4200.
+- ### [Live Demo](http://offirgolan/.github.io/ember-query-builder)
 
-## Running Tests
+- ### [Changelog](CHANGELOG.md)
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+## Looking for help?
+If it is a bug [please open an issue on GitHub](http://github.com/offirgolan/ember-query-builder/issues).
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+## Usage
