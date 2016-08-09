@@ -1,0 +1,1 @@
+export { default } from 'ember-query-builder/components/query-builder';
