@@ -2,6 +2,7 @@
 
 An EmberJS wrapper for [jQuery QueryBuilder](https://github.com/mistic100/jQuery-QueryBuilder)
 
+[![Ember Version](https://embadge.io/v1/badge.svg?start=2.0.0)](https://embadge.io/v1/badge.svg?start=2.0.0)
 [![Build Status](https://travis-ci.org/offirgolan/ember-query-builder.svg)](https://travis-ci.org/offirgolan/ember-query-builder)
 [![npm version](https://badge.fury.io/js/ember-query-builder.svg)](http://badge.fury.io/js/ember-query-builder)
 [![Dependency Status](https://david-dm.org/offirgolan/ember-query-builder.svg)](https://david-dm.org/offirgolan/ember-query-builder)
