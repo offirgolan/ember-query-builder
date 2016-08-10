@@ -1,1 +1,14 @@
-{{query-builder filters=filters foo='bar'}}
+<div style="padding: 30px;">
+  {{query-builder filters=filters plugins=plugins onChange=(action (mut queryBuilder))}}
+
+  <button type="button" name="button" {{action 'showRules'}} class="btn btn-primary">Show Rules</button>
+  <button type="button" name="button" {{action 'reset'}} class="btn btn-primary">Reset</button>
+
+  {{#if jsonString}}
+    <br>
+    <br>
+    <pre>
+      {{jsonString}}
+    </pre>
+  {{/if}}
+</div>
