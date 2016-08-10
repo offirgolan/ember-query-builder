@@ -56,6 +56,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL": "http://offirgolan.github.io/ember-query-builder"
+    "versionCompatibility": {
+       "ember": ">=2.0.0 <3.0.0"
+    }
   }
 }

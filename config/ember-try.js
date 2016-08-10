@@ -1,6 +1,6 @@
 /*jshint node:true*/
 module.exports = {
-  "command": "ember test",
+  "useVersionCompatibility": true,
   "scenarios": [
     {
       "name": "default",
@@ -9,77 +9,37 @@ module.exports = {
       }
     },
     {
-      "name": "ember-2.3",
-      "bower": {
-        "dependencies": {
-          "ember": "~2.3.0",
-          "ember-data": "~2.3.0"
-        }
-      }
-    },
-    {
-      "name": "ember-2.4",
-      "bower": {
-        "dependencies": {
-          "ember": "~2.4.0",
-          "ember-data": "~2.4.0"
-        }
-      }
-    },
-    {
-      "name": "ember-2.5",
-      "bower": {
-        "dependencies": {
-          "ember": "~2.5.0",
-          "ember-data": "~2.5.0"
-        }
-      }
-    },
-    {
-      "name": "ember-2.6",
-      "bower": {
-        "dependencies": {
-          "ember": "~2.6.0",
-          "ember-data": "~2.6.0"
-        }
-      }
-    },
-    {
       "name": "ember-release",
       "bower": {
         "dependencies": {
-          "ember": "components/ember#release",
-          "ember-data": "components/ember-data#release"
+          "ember": "components/ember#release"
         },
         "resolutions": {
-          "ember": "release",
-          "ember-data": "release"
+          "ember": "release"
         }
       }
     },
     {
       "name": "ember-beta",
+      "allowedToFail": true,
       "bower": {
         "dependencies": {
-          "ember": "components/ember#beta",
-          "ember-data": "components/ember-data#beta"
+          "ember": "components/ember#beta"
         },
         "resolutions": {
-          "ember": "beta",
-          "ember-data": "beta"
+          "ember": "beta"
         }
       }
     },
     {
       "name": "ember-canary",
+      "allowedToFail": true,
       "bower": {
         "dependencies": {
-          "ember": "components/ember#canary",
-          "ember-data": "components/ember-data#canary"
+          "ember": "components/ember#canary"
         },
         "resolutions": {
-          "ember": "canary",
-          "ember-data": "canary"
+          "ember": "canary"
         }
       }
     }
